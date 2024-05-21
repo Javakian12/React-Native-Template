@@ -1,0 +1,297 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yourcompany.defensian"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:4:3-75
+11-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:4:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:2:3-64
+12-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:3:3-77
+13-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:3:20-75
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:5:3-63
+14-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:5:20-61
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:6:3-78
+15-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:6:20-76
+16
+17    <queries>
+17-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:7:3-13:13
+18        <intent>
+18-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:8:5-12:14
+19            <action android:name="android.intent.action.VIEW" />
+19-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:9:7-58
+19-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:9:15-56
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:10:7-67
+21-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:10:17-65
+22
+23            <data android:scheme="https" />
+23-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:11:7-37
+23-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:11:13-35
+24        </intent>
+25
+26        <package android:name="host.exp.exponent" /> <!-- Query open documents -->
+26-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-53
+26-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-50
+27        <intent>
+27-->[:expo-file-system] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:18
+28            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+28-->[:expo-file-system] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-79
+28-->[:expo-file-system] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:21-76
+29        </intent>
+30    </queries>
+31
+32    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+32-->[com.facebook.flipper:flipper:0.182.0] C:\Users\josha\.gradle\caches\transforms-3\1485d95526a73b5e7b9c9926035fd391\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:16:5-76
+32-->[com.facebook.flipper:flipper:0.182.0] C:\Users\josha\.gradle\caches\transforms-3\1485d95526a73b5e7b9c9926035fd391\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:16:22-73
+33
+34    <permission
+34-->[androidx.core:core:1.12.0] C:\Users\josha\.gradle\caches\transforms-3\a91e5c878c6b7d3cf2ad04745cbd47b1\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+35        android:name="com.yourcompany.defensian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.12.0] C:\Users\josha\.gradle\caches\transforms-3\a91e5c878c6b7d3cf2ad04745cbd47b1\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.12.0] C:\Users\josha\.gradle\caches\transforms-3\a91e5c878c6b7d3cf2ad04745cbd47b1\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.yourcompany.defensian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.12.0] C:\Users\josha\.gradle\caches\transforms-3\a91e5c878c6b7d3cf2ad04745cbd47b1\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.12.0] C:\Users\josha\.gradle\caches\transforms-3\a91e5c878c6b7d3cf2ad04745cbd47b1\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+39
+40    <application
+40-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:14:3-33:17
+41        android:name="com.yourcompany.defensian.MainApplication"
+41-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:14:16-47
+42        android:allowBackup="true"
+42-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:14:162-188
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.12.0] C:\Users\josha\.gradle\caches\transforms-3\a91e5c878c6b7d3cf2ad04745cbd47b1\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+44        android:debuggable="true"
+45        android:extractNativeLibs="true"
+46        android:icon="@mipmap/ic_launcher"
+46-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:14:81-115
+47        android:label="@string/app_name"
+47-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:14:48-80
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:14:116-161
+49        android:theme="@style/AppTheme"
+49-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:14:189-220
+50        android:usesCleartextTraffic="true" >
+50-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\debug\AndroidManifest.xml:6:18-53
+51        <meta-data
+51-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:15:5-83
+52            android:name="expo.modules.updates.ENABLED"
+52-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:15:16-59
+53            android:value="false" />
+53-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:15:60-81
+54        <meta-data
+54-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:16:5-93
+55            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+55-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:16:16-68
+56            android:value="49.0.0" />
+56-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:16:69-91
+57        <meta-data
+57-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:17:5-105
+58            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+58-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:17:16-80
+59            android:value="ALWAYS" />
+59-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:17:81-103
+60        <meta-data
+60-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:18:5-99
+61            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+61-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:18:16-79
+62            android:value="0" />
+62-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:18:80-97
+63
+64        <activity
+64-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:19:5-31:16
+65            android:name="com.yourcompany.defensian.MainActivity"
+65-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:19:15-43
+66            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+66-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:19:77-154
+67            android:exported="true"
+67-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:19:276-299
+68            android:label="@string/app_name"
+68-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:19:44-76
+69            android:launchMode="singleTask"
+69-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:19:155-186
+70            android:screenOrientation="portrait"
+70-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:19:300-336
+71            android:theme="@style/Theme.App.SplashScreen"
+71-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:19:230-275
+72            android:windowSoftInputMode="adjustResize" >
+72-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:19:187-229
+73            <intent-filter>
+73-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:20:7-23:23
+74                <action android:name="android.intent.action.MAIN" />
+74-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:21:9-60
+74-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:21:17-58
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:22:9-68
+76-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:22:19-66
+77            </intent-filter>
+78            <intent-filter>
+78-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:24:7-30:23
+79                <action android:name="android.intent.action.VIEW" />
+79-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:9:7-58
+79-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:9:15-56
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:26:9-67
+81-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:26:19-65
+82                <category android:name="android.intent.category.BROWSABLE" />
+82-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:10:7-67
+82-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:10:17-65
+83
+84                <data android:scheme="com.yourcompany.defensian" />
+84-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:11:7-37
+84-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:11:13-35
+85                <data android:scheme="exp+defensian" />
+85-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:11:7-37
+85-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:11:13-35
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:32:5-106
+89            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+89-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:32:15-79
+90            android:exported="false" />
+90-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:32:80-104
+91
+92        <meta-data
+92-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-14:37
+93            android:name="expo.modules.updates.AUTO_SETUP"
+93-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-59
+94            android:value="false" />
+94-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-34
+95
+96        <activity
+96-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-29:20
+97            android:name="expo.modules.devlauncher.launcher.DevLauncherActivity"
+97-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-81
+98            android:exported="true"
+98-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-36
+99            android:launchMode="singleTask"
+99-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-44
+100            android:theme="@style/Theme.DevLauncher.LauncherActivity" >
+100-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-70
+101            <intent-filter>
+101-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-28:29
+102                <action android:name="android.intent.action.VIEW" />
+102-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:9:7-58
+102-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:9:15-56
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:26:9-67
+104-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:26:19-65
+105                <category android:name="android.intent.category.BROWSABLE" />
+105-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:10:7-67
+105-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:10:17-65
+106
+107                <data android:scheme="expo-dev-launcher" />
+107-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:11:7-37
+107-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:11:13-35
+108            </intent-filter>
+109        </activity>
+110        <activity
+110-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-33:70
+111            android:name="expo.modules.devlauncher.launcher.errors.DevLauncherErrorActivity"
+111-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-93
+112            android:screenOrientation="portrait"
+112-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-49
+113            android:theme="@style/Theme.DevLauncher.ErrorActivity" />
+113-->[:expo-dev-launcher] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-67
+114        <activity
+114-->[:expo-dev-menu] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-21:20
+115            android:name="expo.modules.devmenu.DevMenuActivity"
+115-->[:expo-dev-menu] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-64
+116            android:exported="true"
+116-->[:expo-dev-menu] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-36
+117            android:launchMode="singleTask"
+117-->[:expo-dev-menu] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-44
+118            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" >
+118-->[:expo-dev-menu] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-75
+119            <intent-filter>
+119-->[:expo-dev-menu] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-20:29
+120                <action android:name="android.intent.action.VIEW" />
+120-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:9:7-58
+120-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:9:15-56
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:26:9-67
+122-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:26:19-65
+123                <category android:name="android.intent.category.BROWSABLE" />
+123-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:10:7-67
+123-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:10:17-65
+124
+125                <data android:scheme="expo-dev-menu" />
+125-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:11:7-37
+125-->C:\Users\josha\Documents\GitHub\defensian\defensian\android\app\src\main\AndroidManifest.xml:11:13-35
+126            </intent-filter>
+127        </activity>
+128
+129        <provider
+129-->[:expo-file-system] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-30:20
+130            android:name="expo.modules.filesystem.FileSystemFileProvider"
+130-->[:expo-file-system] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-74
+131            android:authorities="com.yourcompany.defensian.FileSystemFileProvider"
+131-->[:expo-file-system] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-74
+132            android:exported="false"
+132-->[:expo-file-system] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+133            android:grantUriPermissions="true" >
+133-->[:expo-file-system] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-47
+134            <meta-data
+134-->[:expo-file-system] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-29:70
+135                android:name="android.support.FILE_PROVIDER_PATHS"
+135-->[:expo-file-system] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-67
+136                android:resource="@xml/file_system_provider_paths" />
+136-->[:expo-file-system] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-67
+137        </provider>
+138
+139        <meta-data
+139-->[:expo-modules-core] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-11:89
+140            android:name="org.unimodules.core.AppLoader#react-native-headless"
+140-->[:expo-modules-core] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-79
+141            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+141-->[:expo-modules-core] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-86
+142        <meta-data
+142-->[:expo-modules-core] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-15:45
+143            android:name="com.facebook.soloader.enabled"
+143-->[:expo-modules-core] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-57
+144            android:value="true" />
+144-->[:expo-modules-core] C:\Users\josha\Documents\GitHub\defensian\defensian\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-33
+145
+146        <provider
+146-->[androidx.emoji2:emoji2:1.2.0] C:\Users\josha\.gradle\caches\transforms-3\a645397c957a630e54088b5fb2ff7d27\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+147            android:name="androidx.startup.InitializationProvider"
+147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\josha\.gradle\caches\transforms-3\a645397c957a630e54088b5fb2ff7d27\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+148            android:authorities="com.yourcompany.defensian.androidx-startup"
+148-->[androidx.emoji2:emoji2:1.2.0] C:\Users\josha\.gradle\caches\transforms-3\a645397c957a630e54088b5fb2ff7d27\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+149            android:exported="false" >
+149-->[androidx.emoji2:emoji2:1.2.0] C:\Users\josha\.gradle\caches\transforms-3\a645397c957a630e54088b5fb2ff7d27\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+150            <meta-data
+150-->[androidx.emoji2:emoji2:1.2.0] C:\Users\josha\.gradle\caches\transforms-3\a645397c957a630e54088b5fb2ff7d27\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+151                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+151-->[androidx.emoji2:emoji2:1.2.0] C:\Users\josha\.gradle\caches\transforms-3\a645397c957a630e54088b5fb2ff7d27\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+152                android:value="androidx.startup" />
+152-->[androidx.emoji2:emoji2:1.2.0] C:\Users\josha\.gradle\caches\transforms-3\a645397c957a630e54088b5fb2ff7d27\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+153            <meta-data
+153-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\josha\.gradle\caches\transforms-3\6eaf55cae915020d5e140db4b0eed330\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+154                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+154-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\josha\.gradle\caches\transforms-3\6eaf55cae915020d5e140db4b0eed330\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+155                android:value="androidx.startup" />
+155-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\josha\.gradle\caches\transforms-3\6eaf55cae915020d5e140db4b0eed330\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+156        </provider>
+157    </application>
+158
+159</manifest>

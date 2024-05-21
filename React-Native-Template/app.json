@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "ReactNativeTemplate",
+    "slug": "ReactNativeTemplate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*",
+      "assets/fonts/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.ReactNativeTemplate"
+    },
+    "android": {
+      "package": "com.yourcompany.ReactNativeTemplate",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c7d7d820-5a84-427a-89ce-358b6007b60e"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}

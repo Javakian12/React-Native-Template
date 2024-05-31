@@ -31,12 +31,36 @@ A few rules when submitting a pull request for the template app:
 
 Upon completion and approval of a pull request, access to the server files will be granted, allowing you to fully customize, integrate, and deploy your app! (With your improvements as well! 😊)
 
+##Pages
 
+There are currently 4 major pages within the app, being:
+
+**Login** - A page where you can create an account, login to that account, or send an email to reset your username/password
+**Profile** - A page where you can view notifications, edit your profile, or log out
+**Home** - (Incomplete) A landing page for your app
+**Admin** - (Incomplete) A admin page where you can invite others to join your app (for exclusive access) or invite entire companies to join (creating a new database for each company)
+
+##Features
+This app contains quite a few features, such as:
+
+1. Secret Token Authentication
+2. CRUD database operations/calls
+3. MongoDB integration
+4. Global props that can be passed to every page, with a variety of functions from a snack bar, popup, global variables, etc
+5. Mobile/Web separation, meaning you can develop for both platforms at the **same time**
+6. NodeJS emailer with expiring code (when choosing the option "forgot password")
+7. Password encryption when creating an account
+8. Web/Mobile local storage, meaning upon refresh or app close you will not be logged out
+9. Jotai global atoms, meaning you can efficiently organize and pass a wide variety of global variables/objects
+
+And much more!
+
+##Example Pages
 
 🚧 Work In Progress 🚧
-
-Example Pages:
 
 Login:
 
 ![login](https://github.com/Javakian12/React-Native-Template/assets/89485382/994fa716-21f5-42be-a952-59e307c8e83d)
+
+

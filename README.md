@@ -12,9 +12,9 @@ You may notice that the server files are not included in this repository. This i
 1. This repository is front-end only. The backend is a different repository.
 
 2. This repository took a lot of time to make. We want this repository to be an open-source help to those wishing to create their own React Native App, not be another one of the (many) paid boilerplates you can buy from any website. However, with the small team that developed this, we do not have enough time to maintain and update this repository constantly. So, instead of paying for the code, we desire contributions to the codebase so this template can grow, and help more developers like you and I. To get access to the server repository (it currently is a private repository), open up a pull request and either:
-     a. Address one of the issues in the open issues tab with a tag of (ToDo) 🚩.
-     b. Improve the layout/design/looks of the app by incorporating your own CSS skills, improving how the pages look to the human eye |👁️|!
-     c. Be creative! Add your page/module/feature into the app that not only helps you but others using this repository 🚀! This choice is the more creative option, mainly for those who want to add a new page to the template so it supports more features.
+   a. Address one of the issues in the open issues tab with a tag of (ToDo) 🚩.
+   b. Improve the layout/design/looks of the app by incorporating your own CSS skills, improving how the pages look to the human eye |👁️|!
+   c. Be creative! Add your page/module/feature into the app that not only helps you but others using this repository 🚀! This choice is the more creative option, mainly for those who want to add a new page to the template so it supports more features.
 
 A few rules when submitting a pull request for the template app:
 1. Submit it only when complete! Do not submit incomplete code, code that does not work, or code that introduces vulnerabilities/new bugs! This will drastically speed up the time that your pull request is approved, and will help us when approving it 😊.

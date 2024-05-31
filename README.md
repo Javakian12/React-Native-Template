@@ -3,7 +3,10 @@ A template (boilerplate) for a React Native app.
 
 This repository is a fully functional app that can be built on IOS, Android, and Web for faster deployment. This repository includes a large amount of features, all designed to help you skyrocket your deployment.
 
+## Server
+
 This repository includes only the front-end components of the template app. While it works when emulating and visiting the pages, certain features such as login and account creation will not work until you run the server. You can, however, visit the different pages in the app (bypass the "Login" page) by changing the default stack in App.js to "MainScreen":
+
 ![image](https://github.com/Javakian12/React-Native-Template/assets/89485382/55c408d3-109f-4401-b8b6-5cdc3f8afd6a)
 
 
@@ -26,6 +29,8 @@ A few rules when submitting a pull request for the template app:
 4. Please try to only use React Native and Javascript code. This is a multi-platform compatibility app, which means that using HTML (in your JavaScript) will break its functionality on IOS and Android. Also, using any functions that reference "document" will not work, as it is built with React Native, which means it doesn't support the window object found with normal web apps.
 5. If you have any questions/suggestions/need help with a pull request, feel free to reach out!
 
+Upon completion and approval of a pull request, access to the server files will be granted, allowing you to fully customize, integrate, and deploy your app! (With your improvements as well! 😊)
+
 
 
 🚧 Work In Progress 🚧
@@ -33,4 +38,5 @@ A few rules when submitting a pull request for the template app:
 Example Pages:
 
 Login:
+
 ![login](https://github.com/Javakian12/React-Native-Template/assets/89485382/994fa716-21f5-42be-a952-59e307c8e83d)

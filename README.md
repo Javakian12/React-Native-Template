@@ -31,16 +31,19 @@ A few rules when submitting a pull request for the template app:
 
 Upon completion and approval of a pull request, access to the server files will be granted, allowing you to fully customize, integrate, and deploy your app! (With your improvements as well! 😊)
 
-##Pages
+## Pages
 
 There are currently 4 major pages within the app, being:
 
 **Login** - A page where you can create an account, login to that account, or send an email to reset your username/password
+
 **Profile** - A page where you can view notifications, edit your profile, or log out
+
 **Home** - (Incomplete) A landing page for your app
+
 **Admin** - (Incomplete) A admin page where you can invite others to join your app (for exclusive access) or invite entire companies to join (creating a new database for each company)
 
-##Features
+## Features
 This app contains quite a few features, such as:
 
 1. Secret Token Authentication
@@ -55,7 +58,7 @@ This app contains quite a few features, such as:
 
 And much more!
 
-##Example Pages
+## Example Pages
 
 🚧 Work In Progress 🚧
 

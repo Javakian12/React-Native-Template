@@ -1,6 +1,8 @@
 # React-Native-Template
 A template (boilerplate) for a React Native app.
 
+This is currently an OLD version, a newer version will be released soon with loads of more features and quality of life improvements. If you want early access, open up a thread on issues to request it.
+
 This repository is a fully functional app that can be built on IOS, Android, and Web for faster deployment. This repository includes a large amount of features, all designed to help you skyrocket your deployment.
 
 ## Server
